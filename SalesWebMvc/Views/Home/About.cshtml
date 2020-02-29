@@ -1,7 +1,15 @@
 ﻿@{
+
+    //bloco que aceita o C# deve usar o @{
     ViewData["Title"] = "About";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
 
-<p>Use this area to provide additional information.</p>
+<p>Vendedor @ViewData["Vendedor"]</p>
+<address>
+  <strong>
+     More Information:
+    </strong>
+  <a href="http://www.miwsolucoes.com.br/">miwsolucoes.com.br</a>
+</address>
